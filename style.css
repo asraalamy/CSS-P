@@ -1,0 +1,194 @@
+body{
+    background-color: bisque;
+    color: rgb(66, 59, 45);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 239, 240);
+
+}
+h2{
+font-family: 'Arizonia', static; 
+
+
+}
+
+header{
+    background-color:#B03052 ;
+    color: azure;
+   
+}
+.navbar{
+width: 500px;
+height: 100px;
+max-width: 1100px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+
+
+
+
+
+
+nav ul{
+margin: auto;
+list-style: none;
+display: flex;
+gap: 40px;
+align-items: center;
+}
+
+.afg{
+    margin: auto;
+    margin-right: 250px;
+}
+
+
+nav a:hover{
+  color: rgb(97, 136, 163);  
+}
+
+.province{
+ width:50%;
+ margin: 100px auto 100px auto;
+text-align: left;
+line-height:right;
+ }
+
+
+
+.BB{
+     width: 30%;
+    float:left;
+    margin-right:40px ;
+}
+.MM{
+    width: 30%;
+    float:left;
+    margin-right:40px ;
+}
+.HH{
+    width: 30%;
+    float:left;
+    margin-right:40px ;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color:#B03052 ;
+    color: beige;
+    position: fixed;
+    left: 15px;
+    bottom:15px ;}
+ 
+.RRED{
+    width: 600px;
+    width: 400px;
+    float: left;
+    margin-right:40px ;
+    animation: RRED 9s linear  infinite ;
+}
+
+
+@keyframes RRED{
+    0%{
+filter:blur(0px) ;
+transform: rotateY(0deg);
+    }
+25%{
+    filter: brightness(70%);
+}
+50%{
+filter: contrast(180%);
+}
+75%{
+filter: grayscale(100%);
+}
+100%{ transform: rotateY(360deg);
+  filter: saturate(2);
+}
+}
+
+.container{
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    padding: 25px 0;
+}
+.logo{
+     width: 100px;
+     display: block;
+     margin: auto;
+    border-radius: 50px;
+}
+.title{
+    text-align: center;
+}
+
+
+
+#form{
+    background-color: #FAA4BD;
+    height: 250px;
+    margin-top:210px;
+    color: #F2EFE7;
+    font-size: 20px;
+    padding-top: 40px ;
+    padding-left: 20px;
+    
+}
+input[type="text"]{
+    color: red;
+    border:solid 4px #B03052;
+    height: 40px;
+}
+textarea{
+    color: red;
+    border:solid 4px #B03052 ;
+    height: 60px;
+}
+input[type="submit"]{
+    color: red;
+    border:solid 4px #B03052;
+    width: 200px;
+    height: 40px;
+    /* margin-left: 550px;
+    margin-top: 50px; */
+}
+
+
+    
+#youtube>a>i{
+    color: red;
+}
+#github>a>i{
+    color: black;
+}
+#facebook>a>i{
+    color: blue;
+}
+#a{
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+    float:right ;
+    margin-right: 30px;
+}
+.Follow{
+    margin: auto;
+    color: #B03052;
+    margin-right:270px;
+}
